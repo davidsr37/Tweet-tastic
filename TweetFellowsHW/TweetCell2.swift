@@ -8,6 +8,8 @@
 
 import UIKit
 
+//CLASS TO APPLY TABLEVIEW METHODS TO THE TWEET CELL XIB FILE - formats the view
+
 class TweetCell2: UITableViewCell {
   
   
@@ -15,10 +17,12 @@ class TweetCell2: UITableViewCell {
   @IBOutlet weak var nameLabel: UILabel!
   @IBOutlet weak var tweetLabel: UILabel!
   @IBOutlet weak var tweetViewImage: UIImageView!
-  
+
+  //xib file version of viewDidLoad
   override func awakeFromNib() {
     super.awakeFromNib()
-    // Initialization code
+    
+    // Initialization code would go here
   }
   
   override func setSelected(selected: Bool, animated: Bool) {

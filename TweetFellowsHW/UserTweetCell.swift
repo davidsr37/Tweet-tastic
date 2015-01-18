@@ -14,8 +14,16 @@ class UserTweetCell : UITableViewCell  {
   @IBOutlet weak var tweetTime: UILabel!
   @IBOutlet weak var favsCount: UILabel!
   
+  
+  var tweet : Tweet!
+  var networkController : NetworkController!
+  
+  
   override func awakeFromNib() {
     super.awakeFromNib()
+    
+
+    
   }
   
   override func setSelected(selected: Bool, animated: Bool) {
